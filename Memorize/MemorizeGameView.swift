@@ -7,18 +7,36 @@
 
 import SwiftUI
 
-struct ContentView: View {
+// In swift ui pretty much everything is struct!
+
+struct MemorizeGameView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello,iOS!")
         }
         .padding()
+     
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Preview {
-    ContentView()
+    MemorizeGameView()
 }
